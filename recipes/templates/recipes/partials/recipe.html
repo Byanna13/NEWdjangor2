@@ -40,7 +40,7 @@
         <i class="fas fa-pizza-slice"></i>
         Porções
       </h3>
-      <div class="recipe-meta-text"> 
+      <div class="recipe-meta-text">
         {{ recipe.servings }} {{recipe.servings_unit}}</div>
     </div>
   </div>
@@ -51,6 +51,10 @@
       <span>ver mais...</span>
     </a>
   </footer>
- 
-
+<footer class="recipe-footer">
+  <a class="recipe-read-more button button-dark button-full-width" href="{% url 'vai' %}">
+    <i ></i>
+    <span>Contato</span>
+  </a>
+</footer>
 </div>
