@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'NEWdjangor2'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_134413B7DB6A4B328624C7FCB5469060 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_34D5702BFFAD456D886E98E42C1B4530 }}
