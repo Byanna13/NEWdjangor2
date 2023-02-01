@@ -18,8 +18,8 @@ def recipe(request, id):
 def vai(request):
     return render(request,'recipes/part/vai.html')
 
-def recip(request):
-    return render(request,'recipes/pages/recipe.html')
+def recipe(request):
+    return render(request,'recipes/pages/home.html')
   
 def contato(request):
     # HTTP Response
