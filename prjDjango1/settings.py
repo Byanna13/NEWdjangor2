@@ -26,8 +26,8 @@ SECRET_KEY = 'a6DcpKy09lrntwiNG9KRYowmW5nRJXXDtl243xo1846Hrfi2Xan9amhx8sgD'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-# ALLOWED_HOSTS = ['https://newdjangor2.azurewebsites.net','newdjangor2.azurewebsites.net']
-ALLOWED_HOSTS = ['https://newdjangor2.azurewebsites.net', 'part/vai']
+ALLOWED_HOSTS = ['https://newdjangor2.azurewebsites.net','newdjangor2.azurewebsites.net']
+# ALLOWED_HOSTS = ['https://newdjangor2.azurewebsites.net', 'part/vai']
 
 # Application definition
 
