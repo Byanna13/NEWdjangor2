@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'a6DcpKy09lrntwiNG9KRYowmW5nRJXXDtl243xo1846Hrfi2Xan9amhx8sgD'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['https://newdjangor2.azurewebsites.net','newdjangor2.azurewebsites.net']
 
