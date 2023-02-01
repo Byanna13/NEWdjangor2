@@ -24,7 +24,7 @@ SECRET_KEY = 'a6DcpKy09lrntwiNG9KRYowmW5nRJXXDtl243xo1846Hrfi2Xan9amhx8sgD'
 # SECRET_KEY = 'django-insecure-)2gn@c_vogn1zmv8+@($sk=+muv5cufbi#kuh+nz_^4mnjpqd('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['https://newdjangor2.azurewebsites.net','newdjangor2.azurewebsites.net']
 # ALLOWED_HOSTS = ['https://newdjangor2.azurewebsites.net', 'part/vai']
