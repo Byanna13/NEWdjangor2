@@ -237,3 +237,82 @@
     transform: scale(1);
     box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.5);
   }
+
+  .imgv {
+    width: 300px;
+    margin-left: 50px;
+  
+  }
+  
+  #conteiner {
+    grid-template-columns: 30% auto;
+    display: flex;
+    grid-column-gap: 20px;
+  
+  }
+  
+  #sidebar,
+  #content {
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .card h3 {
+    font-family: 'Hubballi', cursive;
+  }
+  
+  .title {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .datatemp {
+    text-align: center;
+    padding: 10px 1px;
+    width: 140px;
+    left: 80%;
+    position: relative;
+    /* background-color: azure; */
+  }
+  
+  .infotemp {
+    text-align: center;
+    position: relative;
+  }
+  
+  .card {
+    font-family: montserrat;
+    border: 1px solid;
+    padding: 10px 10px 10px;
+    /* background-color: azure; */
+    display: flex;
+    color: var(--color-black);
+  }
+  
+  .cardtemp {
+    /* justify-content: right; */
+    display: grid;
+  }
+  
+  .i {
+    list-style-type: none;
+  }
+  
+  .modo {
+    margin-top: 60px;
+  }
+  
+  .card-title {
+    font-family: montserrat;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10px;
+    /* background-color: azure; */
+  }
+  
+  .hr {
+    width: 400px;
+  }
