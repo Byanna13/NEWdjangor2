@@ -18,9 +18,12 @@ def recipe(request, id):
 def vai(request):
     return render(request,'recipes/part/vai.html')
 
-def recipe(request):
-    return render(request,'recipes/pages/home.html')
-  
+def vai(request):
+    return render(request,'recipes/part/vai.html')
+
 def contato(request):
-    # HTTP Response
-    return HttpResponse('')
+    return render(request,'recipes/part/contato.html')
+  
+# def contato(request):
+#     # HTTP Response
+#     return HttpResponse('')
