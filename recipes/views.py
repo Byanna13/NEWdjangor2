@@ -11,18 +11,15 @@ def home(request):
 
 def recipe(request, id):
     return render(request, 'recipes/pages/recipe-view.html', context={
-        'recipe': make_recipe(),
+        'recipe': make_recipe(), 'name': 'Byanna Burguer',
         'is_detail_page' : True,
     })
 
 def vai(request):
-    return render(request,'recipes/part/vai.html')
-
-def vai(request):
-    return render(request,'recipes/part/vai.html')
+    return render(request,'recipes/part/vai.html', context={'name': 'Byanna Burguer'})
 
 def contato(request):
-    return render(request,'recipes/part/contato.html')
+    return render(request,'recipes/part/contato.html', context={'name': 'Byanna Burguer'})
   
 # def contato(request):
 #     # HTTP Response
